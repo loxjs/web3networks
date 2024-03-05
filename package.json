@@ -38,10 +38,5 @@
     "husky": "6.0.0",
     "lodash": "^4.16.0"
   },
-  "peerDependencies": {},
-  "dependencies": {
-    "ethers": "6.11.1",
-    "viem": "2.7.19",
-    "web3": "4.5.0"
-  }
+  "peerDependencies": {}
 }
