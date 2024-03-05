@@ -1,0 +1,47 @@
+{
+  "name": "@loxjs/web3networks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zen Li",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src",
+    "build": "./node_modules/.bin/babel src -d lib && cp package.json lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.23.9",
+    "@babel/core": "7.24.0",
+    "@babel/plugin-proposal-class-properties": "7.18.6",
+    "@babel/plugin-proposal-decorators": "7.24.0",
+    "@babel/plugin-proposal-do-expressions": "7.23.3",
+    "@babel/plugin-proposal-export-default-from": "7.23.3",
+    "@babel/plugin-proposal-export-namespace-from": "7.18.9",
+    "@babel/plugin-proposal-function-bind": "7.23.3",
+    "@babel/plugin-proposal-function-sent": "7.23.3",
+    "@babel/plugin-proposal-logical-assignment-operators": "7.20.7",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "7.18.6",
+    "@babel/plugin-proposal-numeric-separator": "7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "7.20.7",
+    "@babel/plugin-proposal-optional-chaining": "7.21.0",
+    "@babel/plugin-proposal-partial-application": "7.23.3",
+    "@babel/plugin-proposal-private-methods": "7.18.6",
+    "@babel/plugin-proposal-throw-expressions": "7.23.3",
+    "@babel/plugin-syntax-bigint": "7.8.3",
+    "@babel/preset-env": "7.24.0",
+    "babel-eslint": "10.1.0",
+    "babel-preset-minify": "0.5.2",
+    "eslint": "7.23.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-html": "6.1.2",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-security": "1.4.0",
+    "husky": "6.0.0",
+    "lodash": "^4.16.0"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "ethers": "6.11.1",
+    "viem": "2.7.19",
+    "web3": "4.5.0"
+  }
+}
